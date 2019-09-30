@@ -1,0 +1,25 @@
+{
+  "name": "carpentertycoon",
+  "version": "0.1.0",
+  "description": "A game about making money with lumber",
+  "main": "./src/main.ts",
+  "repository": "github.com/asciifaceman/carpentertycoon",
+  "author": "Charles Corbett",
+  "license": "MIT",
+  "scripts": { 
+    "build": "webpack", 
+    "dev": "webpack-dev-server" 
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "eslint": "^6.5.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "phaser": "^3.19.0"
+  }
+}
